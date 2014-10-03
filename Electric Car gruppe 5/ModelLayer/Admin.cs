@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace ModelLayer
 {
-    class Admin
+    public class Admin : SuperUser
     {
+        public Admin(string fName, string lName, string address, int zipcode, string city, string email, string password) 
+            : base(fName, lName, address, zipcode, city, email, password)
+        {
+
+        }
     }
 }

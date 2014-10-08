@@ -8,8 +8,8 @@ namespace ModelLayer
 {
     public class User : SuperUser
     {
-        public User(string fName, string lName, string address, int zipcode, string city, string email, string password) 
-            : base(fName, lName, address, zipcode, city, email, password)
+        public User(string fName, string lName, string address, int zipcode, string city, string phone, string email, string password) 
+            : base(fName, lName, address, zipcode, city, phone, email, password)
         {
 
         }

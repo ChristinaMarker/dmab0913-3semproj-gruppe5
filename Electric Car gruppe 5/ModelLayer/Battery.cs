@@ -8,5 +8,13 @@ namespace ModelLayer
 {
     class Battery
     {
+        private float kiloWattHours;
+        private string serialNumber;
+
+        /// <summary>
+        /// Implements get and set methods for the battery object
+        /// </summary>
+        public float KiloWattHours { get { return kiloWattHours; } set { kiloWattHours = value; } }
+        public string SerialNumber { get { return serialNumber; } set { serialNumber = value; } }
     }
 }

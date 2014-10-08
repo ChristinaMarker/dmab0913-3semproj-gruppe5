@@ -15,6 +15,15 @@ namespace ModelLayer
         private int endZip;
         private string endCity;
 
+        /// <summary>
+        /// Constructor for the Route class
+        /// </summary>
+        /// <param name="startAddress">The start address of Route</param>
+        /// <param name="startZip">The start zipcode of the Route</param>
+        /// <param name="startCity">The start city of the Route</param>
+        /// <param name="endAddress">The end address of Route</param>
+        /// <param name="endZip">The end zipcode of the Route</param>
+        /// <param name="endCity">The end city of the Route</param>
         public Route(string startAddress, int startZip, string startCity, string endAddress, int endZip, string endCity)
         {
             this.startAddress = startAddress;

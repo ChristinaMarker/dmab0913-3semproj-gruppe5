@@ -16,6 +16,16 @@ namespace ModelLayer
         private string email;
         private string password;
 
+        /// <summary>
+        /// Constructor for the SuperUser class
+        /// </summary>
+        /// <param name="fName">The first name of the user</param>
+        /// <param name="lName">The last name of the user</param>
+        /// <param name="address">The address of the user</param>
+        /// <param name="zipcode">The zipcode of the user</param>
+        /// <param name="city">The city of the user</param>
+        /// <param name="email">The email of the user</param>
+        /// <param name="password">The password of the user</param>
         public SuperUser(string fName, string lName, string address, int zipcode, string city, string email, string password)
         {
             this.fName = fName;

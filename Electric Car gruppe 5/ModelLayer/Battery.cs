@@ -11,6 +11,12 @@ namespace ModelLayer
         private float kiloWattHours;
         private string serialNumber;
 
+        Battery(float kiloWattHours, string serialNumber)
+        {
+            this.kiloWattHours = kiloWattHours;
+            this.serialNumber = serialNumber;
+        }
+
         /// <summary>
         /// Implements get and set methods for the battery object
         /// </summary>
